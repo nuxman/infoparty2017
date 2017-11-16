@@ -7,7 +7,7 @@
   "main": "js/reveal.js",
   "scripts": {
     "test": "grunt test",
-    "start": "grunt serve",
+    "start": "gulp",
     "build": "grunt"
   },
   "author": {
@@ -33,9 +33,14 @@
     "grunt-contrib-qunit": "~1.2.0",
     "grunt-contrib-uglify": "~0.9.2",
     "grunt-contrib-watch": "~1.0.0",
-    "grunt-sass": "~1.2.0",
     "grunt-retire": "~0.3.10",
+    "grunt-sass": "~1.2.0",
     "grunt-zip": "~0.17.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglyfly": "^1.4.2",
+    "gulp-watch": "^4.3.11",
+    "gulp-webserver": "^0.9.1",
     "mustache": "~2.2.1",
     "node-sass": "~3.13.0",
     "socket.io": "^1.4.8"
