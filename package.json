@@ -7,7 +7,7 @@
   "main": "js/reveal.js",
   "scripts": {
     "test": "grunt test",
-    "start": "gulp",
+    "start": "grunt serve",
     "build": "grunt"
   },
   "author": {
